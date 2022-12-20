@@ -17,6 +17,7 @@ For imports just check generatorcode.py file
 
 
 Sorry for this messy and rough readme.md I just dont know how to write them properly
+Please leave a star or follow me, ive put work into this.
 ```
 
 If you need to contact me check out my telegram https://t.me/tokifydeals, https://t.me/tokifynet
