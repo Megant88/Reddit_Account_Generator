@@ -1,0 +1,15 @@
+{
+    "captcha": {
+        "captchasolver": "2captcha.com",
+        "captchakey": "Put ur key here"
+    },
+    "EmailVerification": {
+        "Verify": false,
+        "emailservice": "kopeechka.store",
+        "emailkey": "put ur key here if you use it"
+    },
+    "Proxy": {
+        "Proxy": false
+    }
+
+}
