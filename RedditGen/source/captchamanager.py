@@ -35,9 +35,8 @@ def captchaguru(key):
                 return captchatoken, True
 
 def anticaptcha(key, service): ## compitable with captchaio
-    s = requests.post(f"https://api.{service}/createTask", data={"clientKey": {key}, "task": {"type": "RecaptchaV2TaskProxyless", "websiteURL": "https://reddit.com/register", "websiteKey": "6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC", "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}})
+    s = requests.post(f"https://api.{service}/createTask", json={"clientKey": {key}, "task": {"type": "RecaptchaV2TaskProxyless", "websiteURL": "https://reddit.com/register", "websiteKey": "6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC", "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}})
     errrorID = s.json()["errorId"]
-    print("test1")
     if errrorID != "0":
         return s.text, False
     else:
