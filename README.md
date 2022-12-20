@@ -20,5 +20,6 @@ Sorry for this messy and rough readme.md I just dont know how to write them prop
 Please leave a star or follow me, ive put work into this.
 ```
 
+Here is a video of it https://streamable.com/6ylf83
 If you need to contact me check out my telegram https://t.me/tokifydeals, https://t.me/tokifynet
 I would love to help you if you need assistance
