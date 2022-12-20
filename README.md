@@ -19,5 +19,5 @@ For imports just check generatorcode.py file
 Sorry for this messy and rough readme.md I just dont know how to write them properly
 ```
 
-If you need to contact me check out my telegram https://t.me/tokifydeals,https://t.me/tokifynet
+If you need to contact me check out my telegram https://t.me/tokifydeals, https://t.me/tokifynet
 I would love to help you if you need assistance
